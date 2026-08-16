@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "https://ppalone.me/fancode/",
   plugins: [
     vue(),
     tailwindcss(),
